@@ -1,0 +1,85 @@
+LECTURE TRANSCRIPT
+Date : Saturday, 11 July 2026
+Time : 05:24 PM
+Model: whisper-small
+============================================================
+
+[17:32:49] [Chunk 1] [HI→EN]
+Hello friends, welcome to Gate Sessions. We are going to start in this video. PDA, that is Pushdown Automata. And in this video, we will discuss all the important points of PDA. Which are your competitive exams. Even your college or university level exams. I have done a lot of them. So guys, please like the video. Subscribe to the channel. And please press the bell button. So that you get all the latest notifications. So let's start with PDA. First of all, let me tell you. PDA.
+------------------------------------------------------------
+
+[17:34:31] [Chunk 2] [HI→EN]
+and finite automata is used to recognize the regular language. Now what is the regular language? That they are powerful languages. But if we have languages which are more powerful than regular languages. So if we don't recognize the finite automata for them, then I need a more powerful machine. Let's say for example, 0 power n, 1 power n where n is greater than equal to 0. Here what we have in the language?
+------------------------------------------------------------
+
+[17:37:09] [Chunk 3] [HI→EN]
+So what we have in this language is 0 power n, number of 0s are infinite, so here I can say that it is what is recognized by the finite automata. But after 0 power n, I have put 1 power n, so why are we calling this language as powerful, what is the extra thing in this language, The extra thing in this language is that 0 is followed by 1 and number of 0s and number of 1s are equal. So what is the meaning of number of 0s and number of 1s equal here?
+------------------------------------------------------------
+
+[17:40:15] [Chunk 4] [HI→EN]
+here is a comparison so whenever there is a comparison here the finite automata will fail the reason for that is finite automata has a finite memory and in finite memory I can save the finite value but there are many things which I will have to remember how? if I want to remove it if I want to erase this language then its logic is that the number of zeros you count them after that the number of ones you check the number of zeros you count
+------------------------------------------------------------
+
+[17:41:34] [Chunk 5] [HI→EN]
+I have counted the number of zeros. I think it is very easy to hear that I have counted the number of zeros. If I say that I have counted the number of zeros twice, then it is fine. We are not counting the number of zeros in our minds. What is happening here? The program is being logical. So, to do this, my finite memory is not sufficient. I want extra memory, extra stack. And when I put that, then this will be my memory. It will be more powerful. I mean finite automatic memory.
+------------------------------------------------------------
+
+[17:43:42] [Chunk 6] [HI→EN]
+So we can accept many languages from finite memory but all languages are regular languages. But if it is not, then I need a powerful machine in that case. And what did we do to call it powerful? We didn't give it any extra power. We added a stack of finite automata. When we add a stack of finite automata, it becomes PDA. That is push down automata.
+------------------------------------------------------------
+
+[17:44:05] [Chunk 7] [HI→EN]
+That is push down automatically. Push down means that we are using stag here. So obviously here we will have push operation, pump operation. Now what is the logic here? Zero zero one month. Now whenever zero comes, I mean count them. How many times zero came? So what can I do? As soon as zero came, I put it in the stack. As soon as zero came, I put it in the stack. As soon as zero came, I put it in the stack. And after that as soon as it came, I put it in the stack for each one of them. As soon as it came, I put it in the stack for each one of them.
+------------------------------------------------------------
+
+[17:44:37] [Chunk 8] [HI→EN]
+For every one of them, I am going to stop in that stack, so if in the end, my epsilon is left, I mean no zero or one is left, obviously you can say what is the number of zero and one, but it will be possible if you add an extra memory, an extra stack in it, so whenever we add the stack in the finite automata, that becomes the PD. Obviously if you ask that PD is more powerful, yes PD is more powerful than the finite automata, because PD is more powerful than the finite automata.
+------------------------------------------------------------
+
+[17:45:06] [Chunk 9] [HI→EN]
+i.e. they are not accepting regular languages more powerful languages than regular languages which is called single comparison like zero power and one power and or wwr first i got string i now obviously i got string i to find out its reverse obviously i need storage so all these types of languages we call them context free languages so to recognize context free languages we use pdf so lets talk about its form definition is form
+------------------------------------------------------------
+
+[17:45:32] [Chunk 10] [HI→EN]
+the format definition of the form. 1, 2, 3, 4, 5, 6, 7. How many tuples are there? We use 7 tuples to define the push down automata. In which we have some finite automata. That is a finite set of states like finite automata. In finite automata, we have set of states. We have finite as we have. We have q0, q1, and we have 5. We have a lot of possible. In finite automata, we have 0, 1, or a, b. We have a simple as we have. In finite automata, we have a system. We have a step.
+------------------------------------------------------------
+
+[17:47:21] [Chunk 11] [HI→EN]
+What are you adding to stack? What are you adding to stack? What are you pushing the alphabet from? You are pushing zero, you are doing one, In this case, In this case, This is our case, zero, power and one, power and In this, see the input symbol, Zero and one. But that means, You will push zero and you will push one too. Simple logic is, You push zero and one is not in your hand. That means, In the memory of finite moment, You push zero and one is not in your hand. That means, You will push zero and one is not in your hand.
+------------------------------------------------------------
+
+[17:48:14] [Chunk 12] [HI→EN]
+If you want to solve your question, then tau means that the element that we are putting in the stack, that is become the tau. So if we put all the inputs in the stack, obviously your add depends on the question. What is in which question? Like in this question only zero will be your question. Apart from that your one will not be your question. So if we talk about the transition function, this is very important. We will talk about the transition function in detail later on.
+------------------------------------------------------------
+
+[17:48:36] [Chunk 13] [HI→EN]
+We will talk about it in detail later on. From the example itself, you will understand that there is a transition function in action. But for now, you can take it from this way. Because in the transition function, we have q, that is your state, the final set of state, there is a point of mistake in it. And in this, we have given sigma, that is your input symbol. Now, with the input symbol 0, 1, A, B, we can have epsilon as well. So, even in the case of epsilon, it will work. And tau, what does tau mean? So, you can say that the transition function
+------------------------------------------------------------
+
+[17:49:03] [Chunk 14] [HI→EN]
+If you want to go from one state to another, then what is the current state? Second, what is the input symbol? It is zero, it is one, it is epsilon. And what is the alphabet in the stack? What is the alphabet in the stack? It depends on these three. So if you have any question, how many things depend on these three things? We will pass three arguments in one point. And what is the output? Q into tau star.
+------------------------------------------------------------
+
+[17:49:25] [Chunk 15] [HI→EN]
+and we have two targets in the outboard that is give and tau star. So tau is obviously the one which we have put input symbol on the stack and that is the one which is on top of that. That is the state. So initially when you make a state diagram and you will get a clear then jet node that is the stack symbol. Here the stack which is taking the symbol then the stack which is denoting by default top of the stack is denoting by default top of the stack is denoting by default top of the stack
+------------------------------------------------------------
+
+[17:50:04] [Chunk 16] [HI→EN]
+We have set the Gen node, which will be in the stack. This is in the stack. Apart from this, when you put 0, 1, 0, 1, whatever value you put, you will put the basis of the top of the stack. So the top of the stack will tell you the value of the stack. Then we have push here. And when we do the pump, the top of the stack will come down. When we push, the top of the stack will go up. Then we have the final state. That is your F.
+------------------------------------------------------------
+
+[17:50:44] [Chunk 17] [HI→EN]
+where your string is accepted as the final state but remember that in PDA it can be the final state or it can be the final state so these main points are related to the PDA here in the last I will tell you the point that if this tau and this value means when we write the values of the transition function but here the three are the main points if this symbol and this symbol are equal here
+------------------------------------------------------------
+
+[17:51:09] [Chunk 18] [HI→EN]
+if you have any transition function if it is equal to both then your stack will be unchanged means no one has to change it this is your epsilon as it is so how can this model be done it will just read and then can pop value from stacks this is how the model of PDA will work so this will be more clear when in the next video we will discuss examples of this model
+------------------------------------------------------------
+
+[17:52:02] [Chunk 19] [EN→EN]
+Example distance directed. Example distance directed. Example distance directed.
+------------------------------------------------------------
+
+[17:52:27] [Chunk 20] [NN→EN]
+Thank you for watching.
+------------------------------------------------------------

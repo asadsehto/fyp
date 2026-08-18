@@ -1,0 +1,53 @@
+{
+  "name": "aura",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Academic Recording Assistant",
+  "author": "Asad",
+  "type": "module",
+  "main": "main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "electron:dev": "concurrently \"vite\" \"wait-on tcp:5173 && cross-env NODE_ENV=development electron .\"",
+    "build:app": "npm run build && electron-builder -w"
+  },
+  "build": {
+    "appId": "com.aura.app",
+    "productName": "Aura",
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "files": [
+      "dist/**/*",
+      "main.cjs",
+      "backend/**/*"
+    ],
+    "asarUnpack": [
+      "backend/**/*"
+    ]
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "concurrently": "^10.0.3",
+    "cross-env": "^10.1.0",
+    "electron": "^43.1.0",
+    "electron-builder": "^26.15.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1",
+    "wait-on": "^9.0.10"
+  }
+}

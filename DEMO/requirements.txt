@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────────────────────
+#  LECTURE TRANSCRIBER — Python Requirements
+#  Install everything with one command:
+#
+#    pip install -r requirements.txt
+#
+# ─────────────────────────────────────────────────────────────
+
+# faster-whisper: runs Whisper large-v3-turbo on CPU efficiently
+# Uses CTranslate2 under the hood — 4x faster than original whisper
+# First run downloads the model (~800 MB) automatically
+faster-whisper==1.1.1
+
+# argostranslate: 100% offline Urdu → English translation
+# Downloads a ~50 MB language pack once, then works forever without internet
+argostranslate==1.9.6
+
+# sounddevice: records audio from the laptop microphone
+# Wraps PortAudio — works on Windows, Mac, Linux
+sounddevice==0.5.1
+
+# numpy: handles audio as arrays of numbers
+numpy>=1.24.0
+
+# scipy: saves temporary WAV files from numpy arrays
+scipy>=1.10.0
+
+# ─────────────────────────────────────────────────────────────
+#  ALSO REQUIRED (not pip — install separately):
+#
+#  FFmpeg — faster-whisper uses this internally to read audio
+#  Windows: download from https://ffmpeg.org/download.html
+#           extract and add the bin/ folder to your PATH
+#           then restart your terminal and run: ffmpeg -version
+#
+#  Python 3.10 or 3.11 recommended (NOT 3.12 — some deps have issues)
+# ─────────────────────────────────────────────────────────────

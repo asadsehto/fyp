@@ -1,0 +1,5 @@
+LECTURE TRANSCRIPT
+Date : Saturday, 11 July 2026
+Time : 05:21 PM
+Model: whisper-small
+============================================================

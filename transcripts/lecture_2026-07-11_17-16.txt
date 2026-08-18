@@ -1,0 +1,129 @@
+LECTURE TRANSCRIPT
+Date : Saturday, 11 July 2026
+Time : 05:16 PM
+Model: whisper-small
+============================================================
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   Asd@Asd
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    Windows 11 Pro (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂    Intel(R) Core(TM) i5-10310U (8) @ 4.40 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀   󰚗 06KF2W (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    10.51 GiB / 15.61 GiB (67%)
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    108.79 GiB / 137.32 GiB (79%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    81.56 GiB / 100.26 GiB (81%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+F:\Semester 7\FYP_1
+❯ & C:/Users/Asd/AppData/Local/Programs/Python/Python311/python.exe "f:/Semester 7/FYP_1/DEMO/transcribe.py"
+
+============================================================
+  LECTURE TRANSCRIBER
+  faster-whisper | offline | Urdu→English
+============================================================
+
+  Transcript file: transcripts\lecture_2026-07-11_17-24.txt
+  Loading Whisper 'small' model — please wait...
+
+  Loading model 'small' from cache (C:\Users\Asd\.cache\whisper)...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  Model ready in 433.9s
+
+
+  CONTROLS (type letter + Enter):
+  +-------------------------------------+
+  |  P  =  Pause / Resume               |
+  |  S  =  Stop and save transcript     |
+  +-------------------------------------+
+
+  Transcript: transcripts\lecture_2026-07-11_17-24.txt
+  Mic device: None (16000 Hz native)
+  Recording started in background...
+
+p
+
+  [PAUSED]  PAUSED - discarding audio
+
+p
+
+  [PLAY]  RESUMED - recording
+
+  Transcribing chunk 1 (Queue: 0)... 102.1s
+
+  [17:32:49] [HI] Hello friends, welcome to Gate Sessions. We are going to start in this video. PDA, that is Pushdown Automata. And in this video, we will discuss all t...
+  Transcribing chunk 2 (Queue: 2)... 156.9s
+
+  [17:34:31] [HI] and finite automata is used to recognize the regular language. Now what is the regular language? That they are powerful languages. But if we have lang...
+  Transcribing chunk 3 (Queue: 5)... 186.1s
+
+  [17:37:09] [HI] So what we have in this language is 0 power n, number of 0s are infinite, so here I can say that it is what is recognized by the finite automata. But ...
+  Transcribing chunk 4 (Queue: 10)... 78.8s
+
+  [17:40:15] [HI] here is a comparison so whenever there is a comparison here the finite automata will fail the reason for that is finite automata has a finite memory a...
+  Transcribing chunk 5 (Queue: 12)...s
+
+  Stopping after this chunk...
+
+ 128.3s
+
+  [17:41:34] [HI] I have counted the number of zeros. I think it is very easy to hear that I have counted the number of zeros. If I say that I have counted the number o...
+  Transcribing chunk 6 (Queue: 14)... 22.8s
+
+  [17:43:42] [HI] So we can accept many languages from finite memory but all languages are regular languages. But if it is not, then I need a powerful machine in that c...
+  Transcribing chunk 7 (Queue: 13)... 32.4s
+
+  [17:44:05] [HI] That is push down automatically. Push down means that we are using stag here. So obviously here we will have push operation, pump operation. Now what ...
+  Transcribing chunk 8 (Queue: 12)... 28.4s
+
+  [17:44:37] [HI] For every one of them, I am going to stop in that stack, so if in the end, my epsilon is left, I mean no zero or one is left, obviously you can say wh...
+  Transcribing chunk 9 (Queue: 11)... 26.1s
+
+  [17:45:06] [HI] i.e. they are not accepting regular languages more powerful languages than regular languages which is called single comparison like zero power and one...
+  Transcribing chunk 10 (Queue: 10)... 109.3s
+
+  [17:45:32] [HI] the format definition of the form. 1, 2, 3, 4, 5, 6, 7. How many tuples are there? We use 7 tuples to define the push down automata. In which we have ...
+  Transcribing chunk 11 (Queue: 9)... 52.8s
+
+  [17:47:21] [HI] What are you adding to stack? What are you adding to stack? What are you pushing the alphabet from? You are pushing zero, you are doing one, In this c...
+  Transcribing chunk 12 (Queue: 8)... 22.1s
+
+  [17:48:14] [HI] If you want to solve your question, then tau means that the element that we are putting in the stack, that is become the tau. So if we put all the inp...
+  Transcribing chunk 13 (Queue: 7)... 26.6s
+
+  [17:48:36] [HI] We will talk about it in detail later on. From the example itself, you will understand that there is a transition function in action. But for now, you...
+  Transcribing chunk 14 (Queue: 6)... 22.1s
+
+  [17:49:03] [HI] If you want to go from one state to another, then what is the current state? Second, what is the input symbol? It is zero, it is one, it is epsilon. A...
+  Transcribing chunk 15 (Queue: 5)... 38.9s
+
+  [17:49:25] [HI] and we have two targets in the outboard that is give and tau star. So tau is obviously the one which we have put input symbol on the stack and that is...
+  Transcribing chunk 16 (Queue: 4)... 40.9s
+
+  [17:50:04] [HI] We have set the Gen node, which will be in the stack. This is in the stack. Apart from this, when you put 0, 1, 0, 1, whatever value you put, you will...
+  Transcribing chunk 17 (Queue: 3)... 24.6s
+
+  [17:50:44] [HI] where your string is accepted as the final state but remember that in PDA it can be the final state or it can be the final state so these main points ...
+  Transcribing chunk 18 (Queue: 2)... 52.8s
+
+  [17:51:09] [HI] if you have any transition function if it is equal to both then your stack will be unchanged means no one has to change it this is your epsilon as it ...
+  Transcribing chunk 19 (Queue: 1)... 25.5s
+
+  [17:52:02] [EN] Example distance directed. Example distance directed. Example distance directed.
+  Transcribing chunk 20 (Queue: 0)... 41.3s
+
+  [17:52:27] [NN] Thank you for watching.
+
+  Recording stopped. Transcript saved.
+
+  Saved: transcripts\lecture_2026-07-11_17-24.txt
+
+
+F:\Semester 7\FYP_1 took 29m18s
+❯

@@ -1,0 +1,10 @@
+SUMMARY:
+- Topic of the lecture: Shuffle yets Algorithm
+
+ASSIGNMENTS DETECTED:
+- Task: Shuffle yets Algorithm assignment
+- Deadline: before 8th August
+- Submit via: eLearning
+
+UPLOAD NEEDED: YES
+UPLOAD REASON: Assignment questions for the Shuffle Jets Algorithm need to be uploaded to eLearning.

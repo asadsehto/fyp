@@ -1,0 +1,1 @@
+This is a fallback transcript because the audio was empty or whisper failed.

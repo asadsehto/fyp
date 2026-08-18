@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+faster-whisper
+sounddevice
+numpy
+scipy
+anthropic
+openai
